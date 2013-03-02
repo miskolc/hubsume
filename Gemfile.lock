@@ -119,6 +119,12 @@ GEM
       multi_json (~> 1.0)
     faraday (0.8.4)
       multipart-post (~> 1.1)
+    github_api (0.8.9)
+      faraday (~> 0.8.1)
+      hashie (~> 1.2.0)
+      multi_json (~> 1.4)
+      nokogiri (~> 1.5.2)
+      oauth2
     hashie (1.2.0)
     hike (1.2.1)
     httpauth (0.2.0)
@@ -140,6 +146,7 @@ GEM
     minitest (4.5.0)
     multi_json (1.5.0)
     multipart-post (1.1.5)
+    nokogiri (1.5.6)
     oauth2 (0.8.0)
       faraday (~> 0.8)
       httpauth (~> 0.1)
@@ -194,6 +201,7 @@ DEPENDENCIES
   binding_of_caller
   coffee-rails!
   devise
+  github_api
   jquery-rails
   meta_request (= 0.2.1)
   omniauth!

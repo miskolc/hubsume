@@ -1,6 +1,6 @@
 class User < ActiveRecord::Base
   include Authenticable
-  devise :omniauthable
+  include Hubable
   
   # Setup accessible (or protected) attributes for your model
   attr_accessible :email, :nickname, :urls
